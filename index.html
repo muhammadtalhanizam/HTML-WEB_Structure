@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task #1 (WEB FEST 2022)</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+
+
+        table,
+        h2 {
+            margin: 10px auto;
+            text-align: center;
+        }
+
+        td {
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        form fieldset {
+            padding: 10px;
+
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <!-- Title  -->
+
+    <h2>Task #1 (WEB FEST 2022)</h2>
+
+    <!-- To Draw Table -->
+
+    <table>
+
+
+        <!-- Header  -->
+        <tr>
+
+            <td>Logo</td>
+            <td colspan="5"></td>
+
+            <td><a href="#"> Home</a></td>
+            <td><a href="#"> About</a></td>
+            <td><a href="#"> Contact</a></td>
+            <td><a href="#"> Services</a></td>
+
+        </tr>
+
+        <!-- List  -->
+        <tr>
+            <td colspan="2" rowspan="2">
+
+                <ol>
+                    <h3>Side Bar</h3>
+                    <br />
+                    <b>Order list</b>
+
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                </ol>
+                <br />
+
+                <ul>
+                    <b>UnOrder list</b>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                </ul>
+
+            </td>
+            <td colspan="2"><img src="./images.png" width="200px" alt="Image 1">
+                <figcaption>HTML & CSS</figcaption>
+            </td>
+            <td colspan="2"><img src="./images.png" width="200px" alt="Image 2">
+                <figcaption>HTML & CSS</figcaption>
+            </td>
+            <td colspan="2"><img src="./images.png" width="200px" alt="Image 3">
+                <figcaption>HTML & CSS</figcaption>
+            </td>
+            <td colspan="2"><img src="./images.png" width="200px" alt="Image 4">
+                <figcaption>HTML & CSS</figcaption>
+            </td>
+
+
+
+        </tr>
+
+        <!-- Feedback Form  -->
+        <tr>
+
+            <td colspan="8">
+                <h3>Feedback Form</h3>
+                <form action="">
+                    <fieldset>
+                        <legend>Your Details:</legend>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" required>
+                        <label for="email">Email:</label>
+                        <input type="text" id="Email" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Your Review:</legend>
+                        <label for="hear">How did you hear about us?</label>
+                        <select name="hear" id="hear" required>
+                            <option value="google">Google</option>
+                            <option value="email">Email</option>
+                            <option value="socialmedia">Social media</option>
+                            <option value="google">News Paper</option>
+                        </select>
+                        <br />
+                        <br />
+                        <label for="yes">Would you visit again?</label>
+                        <br />
+                        <input type="radio" name="answer" id="yes" required>
+                        <label for="yes">Yes</label>
+                        <input type="radio" name="answer" id="no" required>
+                        <label for="no">No</label>
+                        <input type="radio" name="answer" id="maybe" required>
+                        <label for="maybe">May be</label>
+                        <br />
+                        <br />
+                        <label for="comments">Comments:</label>
+                        <br />
+                        <textarea name="" id="comments" cols="35" rows="6"></textarea>
+                        <br />
+                        <br />
+                        <input type="checkbox" id="emailupdates" required>
+                        <label for="emailupdates">Sign me up for email updates</label>
+                        <br />
+                        <button>Submit Review</button>
+                    </fieldset>
+
+
+
+
+                </form>
+            </td>
+        </tr>
+
+        <!-- Footer  -->
+        <tr>
+            <td colspan="10">
+                Footer Section
+            </td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
